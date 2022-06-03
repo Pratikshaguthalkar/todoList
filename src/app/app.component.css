@@ -1,0 +1,79 @@
+
+.checked {
+    text-decoration: line-through;
+}
+
+.contain {
+   
+   height: 50%;
+   width: 60%;
+    border: 1px solid green;
+    /* display: inline-block; */
+}
+
+.list {
+    height: 50%;
+    width: 60%;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    min-height: 100px;
+
+}
+
+.task{
+   border-radius: 10px;
+   width: 100%;
+   padding: 15px 10px;
+   background-color: rgb(172, 150, 207);
+   text-align: center;
+   
+}
+.newTask{
+   
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.newTask input{
+    width: 104%;
+    height: 50px;
+    
+}
+
+.button{
+    width: 40%;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* input.checkbox :hover {
+    background-color: yellow;
+} */
+
+#box{
+    margin: 12px;
+}
+
+#defaultCheck:hover,
+#defaultCheck :checked {
+    background-color: rgb(238, 191, 170);
+    opacity: 1;
+}
+
