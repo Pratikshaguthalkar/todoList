@@ -71,7 +71,7 @@ export class AppComponent {
 
 
 
-    debugger
+    // debugger
     // if(this.todos[index].iscompleted){
     //   this.todos.splice(index,1);
     // }
